@@ -18,7 +18,15 @@ h1 {
   padding-left: 150px;
   font-size: 18px;
 }
-
+.project {
+  font-family: "Syne", sans-serif;
+  font-size: 30px;
+}
+.project-sun-pic {
+  background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+  padding: 10px 100px 10px 50px;
+  border-radius: 8px;
+}
 .custom-shape-divider-bottom-1649791039 {
   position: absolute;
   bottom: 0;
@@ -43,4 +51,23 @@ h1 {
 .header-section {
   height: 100vh;
   background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+.project-description {
+  margin-top: 100px;
+  height: 100%;
+  background-color: white;
+  padding: 32px 60px;
+  border-radius: 5px;
+  box-shadow: 10px 10px 70px rgba(0, 0, 0, 0.2);
+  position: relative;
+}
+.description-right {
+  left: -110px;
+}
+.description-left {
+  left: 110px;
 }
