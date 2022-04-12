@@ -1,0 +1,40 @@
+header {
+  padding-top: 200px;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  color: white;
+}
+
+h2 {
+  padding-left: 150px;
+}
+h1 {
+  padding-left: 170px;
+  font-size: 18px;
+}
+
+.custom-shape-divider-bottom-1649791039 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1649791039 svg {
+  position: relative;
+  display: block;
+  width: calc(145% + 1.3px);
+  height: 143px;
+}
+
+.custom-shape-divider-bottom-1649791039 .shape-fill {
+  fill: #ffffff;
+}
+
+.header-section {
+  height: 100vh;
+  background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+}
