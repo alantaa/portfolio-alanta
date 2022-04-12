@@ -16,7 +16,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@500;700&family=Syne:wght@600&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Poppins:wght@100;200;300;500;700&family=Syne:wght@600&display=swap"
       rel="stylesheet"
     />
 
@@ -37,7 +37,8 @@
         <h2>Hi, I'm Alanta!</h2>
         <h1>Freelance Front-end Developer from the UK.</h1>
       </header>
-    </div>
+
+    </div class="custom-header">
     <div class="custom-shape-divider-bottom-1649791039">
       <svg
         data-name="Layer 1"
@@ -62,7 +63,9 @@
       </svg>
     </div>
 
-    <p class="text-center m-5 project">My Projects</p>
+    <div>
+      <p class="text-center m-5 project">My Projects</p>
+    </div>
 
     <div class="container">
       <div class="row">
@@ -70,29 +73,35 @@
           <img
             src="/images/sunset-pc.png"
             alt=""
-            class="project-sun-pic img-fluid project-image"
-            width="700px"
+            class="project-sun-pic img-fluid mb-5 project-image"
           />
         </div>
+
         <div class="col-lg-4 border project-description description-right">
-          <p>Sunset landing page</p>
+          <p class="language-tag">HTML, CSS</p>
+          <hr />
+          <p class="project-title">Sunset landing page</p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
             nam fugit dolores ipsum minus minima assumenda, voluptatum odit iste
-            magnam modi,
+            magnam modi.
           </p>
         </div>
       </div>
     </div>
+
     <br />
+
     <div class="container">
       <div class="row">
         <div class="col-lg-4 border mb-5 project-description description-left">
-          <p>Weather App</p>
+          <p class="language-tag">HTML, CSS, JS</p>
+          <hr />
+          <p class="project-title">Weather App</p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto
             nam fugit dolores ipsum minus minima assumenda, voluptatum odit iste
-            magnam modi,
+            magnam modi.
           </p>
         </div>
 
@@ -101,11 +110,11 @@
             src="/images/weather-app.png"
             alt=""
             class="project-weather-pic img-fluid project-image"
-            width="700px"
           />
         </div>
       </div>
     </div>
+
     <footer class="text-center mt-5 mb-5">Contant Me</footer>
   </body>
 </html>

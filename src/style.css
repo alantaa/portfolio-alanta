@@ -1,6 +1,7 @@
 :root {
   --default-font-family: "Poppins", sans-serif;
   --second-font-family: "Syne", sans-serif;
+  --third-font-family: "Playfair Display", serif;
 }
 
 header {
@@ -19,20 +20,7 @@ h1 {
   padding-left: 150px;
   font-size: 18px;
 }
-.project {
-  font-family: var(--second-font-family);
-  font-size: 30px;
-}
-.project-sun-pic {
-  background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
-  padding: 10px 100px 10px 50px;
-  border-radius: 8px;
-}
-.project-weather-pic {
-  background: linear-gradient(to right, rgb(255, 148, 114), rgb(242, 112, 156));
-  padding: 10px 50px 10px 100px;
-  border-radius: 8px;
-}
+
 .custom-shape-divider-bottom-1649791039 {
   position: absolute;
   bottom: 0;
@@ -58,6 +46,23 @@ h1 {
   height: 100vh;
   background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
 }
+.project {
+  font-family: var(--second-font-family);
+  font-size: 30px;
+  padding-top: 120px;
+}
+.project-sun-pic {
+  background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
+  padding: 10px 100px 10px 50px;
+  border-radius: 8px;
+  width: 900px;
+}
+.project-weather-pic {
+  background: linear-gradient(to right, rgb(255, 148, 114), rgb(242, 112, 156));
+  padding: 10px 50px 10px 100px;
+  border-radius: 8px;
+  width: 900px;
+}
 .img-fluid {
   max-width: 100%;
   height: auto;
@@ -66,7 +71,7 @@ h1 {
   margin-top: 100px;
   height: 100%;
   background-color: white;
-  padding: 32px 60px;
+  padding: 25px 30px;
   border-radius: 5px;
   box-shadow: 10px 10px 70px rgba(0, 0, 0, 0.2);
   position: relative;
@@ -77,11 +82,45 @@ h1 {
 .description-left {
   left: 110px;
 }
-
+.language-tag {
+  font-family: var(--second-font-family);
+}
+.project-title {
+  font-family: var(--second-font-family);
+}
+p {
+  font-family: var(--default-font-family);
+  font-weight: 300;
+}
 @media (max-width: 992px) {
   .project-description {
     left: 0px;
-    margin: 10px 16px;
-    padding: 24px 40px;
+    margin-top: 0px;
+  }
+  .project-sun-pic {
+    display: block;
+    margin: 0 auto;
+  }
+  header {
+    padding-top: 150px;
+    padding-bottom: -100px;
+  }
+  h2 {
+    padding: 0px 60px;
+    font-size: 60px;
+  }
+  h1 {
+    padding: 0px 60px;
+    font-size: 15px;
+  }
+  .project {
+    text-align: left !important;
+    padding-top: 20px;
+  }
+  .header-section {
+    max-height: 450px;
+  }
+  .custom-shape-divider-bottom-1649791039 {
+    display: none;
   }
 }
