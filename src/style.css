@@ -95,8 +95,7 @@ p {
 @media (max-width: 992px) {
   .project-description {
     left: 0px;
-    margin: 10px 10px;
-    box-shadow: none;
+    margin-top: 0px;
   }
   .project-sun-pic {
     display: block;
