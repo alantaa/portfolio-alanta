@@ -79,9 +79,6 @@ h1 {
 .description-right {
   left: -110px;
 }
-.description-left {
-  left: 110px;
-}
 .language-tag {
   font-family: var(--second-font-family);
 }
@@ -95,6 +92,9 @@ p {
 @media (max-width: 768px) {
   .project-image {
     display: none !important;
+  }
+  .project-description {
+    display: none;
   }
 }
 @media (max-width: 992px) {
