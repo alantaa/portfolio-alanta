@@ -95,7 +95,11 @@ p {
 @media (max-width: 992px) {
   .project-description {
     left: 0px;
+<<<<<<< HEAD
     margin-top: 0px;
+=======
+    margin: 0px 0px;
+>>>>>>> parent of f7658e9 (improving mobile appearance)
   }
   .project-sun-pic {
     display: block;
