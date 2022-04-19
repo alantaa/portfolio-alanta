@@ -46,7 +46,7 @@ h1 {
   height: 100vh;
   background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
 }
-.project {
+.projectTitle {
   font-family: var(--second-font-family);
   font-size: 30px;
   padding-top: 120px;
@@ -67,14 +67,33 @@ h1 {
   max-width: 100%;
   height: auto;
 }
+.about-pic {
+  max-height: 100%;
+  display: block;
+  margin: 0 auto;
+}
 .project-description {
-  margin-top: 100px;
+  display: block;
+  margin: 0 auto;
+}
+#about-paragraph {
+  margin-top: 70px;
+  margin-bottom: 180px;
+}
+.project-about {
+  left: -150px;
+  display: block;
+  margin: 0 auto;
+}
+.project-description,
+.project-about {
   height: 100%;
   background-color: white;
-  padding: 25px 30px;
+  padding: 15px 20px;
   border-radius: 5px;
   box-shadow: 10px 10px 70px rgba(0, 0, 0, 0.2);
   position: relative;
+  margin-top: 100px;
 }
 .description-right {
   left: -110px;
@@ -100,12 +119,12 @@ p {
   .project-image {
     display: none !important;
   }
-  .project-description {
+  .description-none {
     display: none;
   }
 }
 @media (max-width: 992px) {
-  .project-description {
+  .description-none {
     left: 0px;
     margin-top: 0px;
   }
@@ -125,14 +144,25 @@ p {
     padding: 0px 60px;
     font-size: 15px;
   }
-  .project {
+  .description-right {
+    left: 0px;
+  }
+  .project-about {
+    max-width: 90%;
+    left: 0px;
+  }
+  .projectTitle {
     text-align: left !important;
     padding-top: 20px;
   }
+
   .header-section {
     max-height: 450px;
   }
   .custom-shape-divider-bottom-1649791039 {
     display: none;
+  }
+  .project-description {
+    margin: 0px;
   }
 }
