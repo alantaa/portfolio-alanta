@@ -46,6 +46,15 @@ h1 {
   height: 87vh;
   background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
 }
+.header-about-color {
+  height: 87vh;
+  background: linear-gradient(to right, rgb(255, 148, 114), rgb(242, 112, 156));
+}
+.header-contact-color {
+  height: 87vh;
+  background: linear-gradient(to top, rgb(255, 148, 114), rgb(242, 112, 156));
+}
+
 .projectTitle {
   font-family: var(--second-font-family);
   font-size: 30px;
