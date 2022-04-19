@@ -57,7 +57,7 @@ h1 {
 
 .projectTitle {
   font-family: var(--second-font-family);
-  font-size: 30px;
+  font-size: 40px;
   padding-top: 120px;
 }
 .project-sun-pic {
@@ -112,6 +112,7 @@ h1 {
 }
 .project-title {
   font-family: var(--second-font-family);
+  font-size: 25px;
 }
 
 #carouselCaptions {
@@ -147,6 +148,27 @@ p {
 .active {
   color: rgb(255, 148, 114) !important;
 }
+footer .email-link {
+  font-family: var(--default-font-family);
+  text-decoration: none;
+  color: black;
+  font-size: 22px;
+}
+.email-link:hover {
+  color: rgb(255, 148, 114);
+}
+footer .social-links a {
+  margin: 0 20px;
+  color: rgb(255, 148, 114);
+  padding: 15px 19px;
+  background: papayawhip;
+  border-radius: 50%;
+  font-size: 25px;
+}
+footer .social-links a:hover {
+  color: white;
+  background: rgb(255, 148, 114);
+}
 
 @media (max-width: 768px) {
   .project-image {
@@ -156,6 +178,7 @@ p {
     display: none;
   }
 }
+
 @media (max-width: 992px) {
   .description-none {
     left: 0px;
