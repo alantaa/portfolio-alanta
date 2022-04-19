@@ -5,7 +5,7 @@
 }
 
 header {
-  padding-top: 200px;
+  padding-top: 150px;
   font-family: var(--default-font-family);
   font-weight: normal;
   color: white;
@@ -43,7 +43,7 @@ h1 {
 }
 
 .header-section {
-  height: 100vh;
+  height: 87vh;
   background: linear-gradient(to right, rgb(242, 112, 156), rgb(255, 148, 114));
 }
 .projectTitle {
@@ -124,6 +124,21 @@ p {
 .contact-info a {
   color: rgb(255, 148, 114);
 }
+.logo-nav {
+  max-width: 80px;
+}
+.nav-style {
+  padding: 0px;
+  margin: 0;
+}
+.nav-text a {
+  margin-left: 25px;
+}
+.nav-text a:hover,
+.active {
+  color: rgb(255, 148, 114) !important;
+}
+
 @media (max-width: 768px) {
   .project-image {
     display: none !important;
