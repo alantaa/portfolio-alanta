@@ -12,7 +12,6 @@ header {
   font-weight: normal;
   color: white;
 }
-
 h2 {
   padding-left: 150px;
   font-size: 80px;
@@ -70,15 +69,18 @@ a:hover {
 }
 .project-sun-pic {
   background: linear-gradient(to right, var(--pink-color), var(--peach-color));
-  padding: 10px 100px 10px 50px;
+  padding: 0px 100px 0px 50px;
   border-radius: 8px;
   width: 900px;
 }
 .project-weather-pic {
   background: linear-gradient(to right, var(--peach-color), var(--pink-color));
-  padding: 10px 100px 10px 50px;
+  padding: 0px 100px 0px 50px;
   border-radius: 8px;
   width: 900px;
+}
+.con-padding {
+  padding: 0%;
 }
 .img-fluid {
   max-width: 100%;
@@ -106,7 +108,7 @@ a:hover {
 .project-about {
   height: 100%;
   background-color: #ffffff;
-  padding: 15px 20px;
+  padding: 20px 15px;
   border-radius: 5px;
   box-shadow: 10px 10px 70px rgba(0, 0, 0, 0.2);
   position: relative;
