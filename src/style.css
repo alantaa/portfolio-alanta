@@ -113,6 +113,8 @@ h1 {
 .project-title {
   font-family: var(--second-font-family);
   font-size: 25px;
+  border-left: black solid 2px;
+  padding-left: 25px;
 }
 
 #carouselCaptions {
