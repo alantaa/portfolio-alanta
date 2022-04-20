@@ -69,7 +69,7 @@ a:hover {
 }
 .project-sun-pic {
   background: linear-gradient(to right, var(--pink-color), var(--peach-color));
-  padding: 0px 100px 0px 50px;
+  padding: 0px 150px 0px 50px;
   border-radius: 8px;
   width: 900px;
 }
@@ -85,6 +85,9 @@ a:hover {
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+.project-image {
+  width: 700px;
 }
 .about-pic {
   max-height: 100%;
