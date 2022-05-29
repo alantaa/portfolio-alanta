@@ -62,15 +62,15 @@ a:hover {
 }
 
 .header-section {
-  height: 87vh;
+  height: 88vh;
   background: linear-gradient(to right, var(--pink-color), var(--peach-color));
 }
 .header-about-color {
-  height: 87vh;
+  height: 88vh;
   background: linear-gradient(to right, var(--peach-color), var(--pink-color));
 }
 .header-contact-color {
-  height: 87vh;
+  height: 88vh;
   background: linear-gradient(to top, var(--peach-color), var(--pink-color));
 }
 
