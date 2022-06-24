@@ -55,22 +55,22 @@ a:hover {
   position: relative;
   display: block;
   width: calc(145% + 1.3px);
-  height: 143px;
+  height: 220px;
 }
 .custom-shape-divider-bottom-1649791039 .shape-fill {
   fill: #ffffff;
 }
 
 .header-section {
-  height: 88vh;
+  height: 86vh;
   background: linear-gradient(to right, var(--pink-color), var(--peach-color));
 }
 .header-about-color {
-  height: 88vh;
+  height: 86vh;
   background: linear-gradient(to right, var(--peach-color), var(--pink-color));
 }
 .header-contact-color {
-  height: 88vh;
+  height: 86vh;
   background: linear-gradient(to top, var(--peach-color), var(--pink-color));
 }
 
@@ -148,7 +148,8 @@ a:hover {
   color: var(--peach-color);
 }
 .logo-nav {
-  max-width: 80px;
+  max-width: 160px;
+  padding: 2px 0 0 0;
 }
 .nav-style {
   padding: 0px;
@@ -181,6 +182,12 @@ footer .social-links a {
 footer .social-links a:hover {
   color: white;
   background: var(--peach-color);
+}
+
+@media (min-width: 992px) {
+  .header-section {
+    max-height: 500px;
+  }
 }
 
 @media (max-width: 768px) {
