@@ -11,6 +11,7 @@ header {
   font-family: var(--default-font-family);
   font-weight: normal;
   color: white;
+  padding-bottom: 100px;
 }
 h2 {
   padding-left: 150px;
@@ -42,7 +43,27 @@ a:hover {
   margin-bottom: 180px;
 }
 
-.custom-shape-divider-bottom-1649791039 {
+.custom-shape-divider-bottom-1656160478 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1656160478 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 117px;
+}
+
+.custom-shape-divider-bottom-1656160478 .shape-fill {
+  fill: #ffffff;
+}
+
+.custom-shape-divider-bottom-1656163219 {
   position: absolute;
   bottom: 0;
   left: 0;
@@ -51,33 +72,35 @@ a:hover {
   line-height: 0;
   transform: rotate(180deg);
 }
-.custom-shape-divider-bottom-1649791039 svg {
+
+.custom-shape-divider-bottom-1656163219 svg {
   position: relative;
   display: block;
-  width: calc(145% + 1.3px);
-  height: 220px;
+  width: calc(100% + 1.3px);
+  height: 119px;
 }
-.custom-shape-divider-bottom-1649791039 .shape-fill {
+
+.custom-shape-divider-bottom-1656163219 .shape-fill {
   fill: #ffffff;
 }
 
 .header-section {
-  height: 86vh;
+  max-height: 600px;
   background: linear-gradient(to right, var(--pink-color), var(--peach-color));
 }
 .header-about-color {
-  height: 86vh;
+  height: 100vh;
   background: linear-gradient(to right, var(--peach-color), var(--pink-color));
 }
 .header-contact-color {
-  height: 86vh;
+  height: 100vh;
   background: linear-gradient(to top, var(--peach-color), var(--pink-color));
 }
 
 .projectTitle {
   font-family: var(--second-font-family);
   font-size: 40px;
-  padding-top: 120px;
+  padding: 160px 0 100px 0;
 }
 .project-sun-pic {
   background: linear-gradient(to right, var(--pink-color), var(--peach-color));
@@ -183,10 +206,16 @@ footer .social-links a:hover {
   color: white;
   background: var(--peach-color);
 }
-
-@media (min-width: 992px) {
+@media (max-width: 400px) {
+  .custom-shape-divider-bottom-1656160478,
+  .custom-shape-divider-bottom-1656163219 {
+    display: none;
+  }
+  header h2 {
+    font-size: 40px;
+  }
   .header-section {
-    max-height: 500px;
+    max-height: 350px !important;
   }
 }
 
@@ -209,8 +238,7 @@ footer .social-links a:hover {
     margin: 0 auto;
   }
   header {
-    padding-top: 150px;
-    padding-bottom: -100px;
+    padding-top: 100px;
   }
   h2 {
     padding: 0px 60px;
@@ -228,17 +256,14 @@ footer .social-links a:hover {
     left: 0px;
   }
   .projectTitle {
+    padding: 200px 0 30px 20px;
     text-align: left !important;
-    padding-top: 20px;
   }
 
-  .header-section {
-    max-height: 450px;
-  }
-  .custom-shape-divider-bottom-1649791039 {
-    display: none;
-  }
   .project-description {
     margin: 0px;
+  }
+  .header-section {
+    max-height: 480px;
   }
 }
