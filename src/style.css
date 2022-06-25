@@ -100,7 +100,7 @@ a:hover {
 .projectTitle {
   font-family: var(--second-font-family);
   font-size: 40px;
-  padding: 160px 0 100px 0;
+  padding: 200px 0 100px 0;
 }
 .project-sun-pic {
   background: linear-gradient(to right, var(--pink-color), var(--peach-color));
@@ -226,6 +226,9 @@ footer .social-links a:hover {
   .description-none {
     display: none;
   }
+  .projectTitle {
+    text-align: left !important;
+  }
 }
 
 @media (max-width: 992px) {
@@ -256,8 +259,8 @@ footer .social-links a:hover {
     left: 0px;
   }
   .projectTitle {
-    padding: 200px 0 30px 20px;
-    text-align: left !important;
+    padding: 150px 0 60px 30px;
+    margin: 0 !important;
   }
 
   .project-description {
