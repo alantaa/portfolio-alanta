@@ -2,8 +2,8 @@
   --default-font-family: "Poppins", sans-serif;
   --second-font-family: "Syne", sans-serif;
   --third-font-family: "Playfair Display", serif;
-  --peach-color: rgb(255, 148, 114);
-  --pink-color: rgb(242, 112, 156);
+  --peach-color: rgba(255, 147, 114, 0.734);
+  --pink-color: rgba(45, 0, 27, 0.901);
 }
 
 header {
@@ -168,7 +168,7 @@ a:hover {
   font-size: 22px;
 }
 .contact-info a {
-  color: var(--peach-color);
+  color: var(--pink-color);
 }
 .logo-nav {
   max-width: 160px;
@@ -183,7 +183,7 @@ a:hover {
 }
 .nav-text a:hover,
 .active {
-  color: var(--peach-color) !important;
+  color: var(--pink-color) !important;
 }
 footer .email-link {
   font-family: var(--default-font-family);
