@@ -6,6 +6,11 @@
   --pink-color: rgba(45, 0, 27, 0.901);
 }
 
+.pexpurp {
+  width: 100%;
+  height: auto;
+}
+
 header {
   padding-top: 100px;
   font-family: var(--default-font-family);
@@ -13,8 +18,12 @@ header {
   color: var(--pink-color);
   padding-bottom: 100px;
 }
+h6 {
+  font-size: 16px;
+  font-family: var(--default-font-family);
+}
 h3 {
-  font-size: 42px;
+  font-size: 38px;
   font-family: var(--second-font-family);
 }
 h2 {
@@ -35,6 +44,9 @@ a {
 }
 a:hover {
   color: var(--pink-color);
+}
+#contact-intro {
+  padding: 40px;
 }
 
 #about-paragraph {
@@ -204,7 +216,7 @@ footer .social-links a {
   margin: 0 20px;
   color: var(--pink-color);
   padding: 15px 19px;
-  background: rgb(245, 237, 224);
+  background: #f6f2f2ac;
   border-radius: 25%;
   font-size: 25px;
 }
