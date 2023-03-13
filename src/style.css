@@ -2,16 +2,20 @@
   --default-font-family: "Poppins", sans-serif;
   --second-font-family: "Syne", sans-serif;
   --third-font-family: "Playfair Display", serif;
-  --peach-color: rgba(255, 147, 114, 0.734);
+  --peach-color: rgba(72, 2, 91, 0.423);
   --pink-color: rgba(45, 0, 27, 0.901);
 }
 
 header {
-  padding-top: 150px;
+  padding-top: 100px;
   font-family: var(--default-font-family);
   font-weight: normal;
-  color: white;
+  color: var(--pink-color);
   padding-bottom: 100px;
+}
+h3 {
+  font-size: 42px;
+  font-family: var(--second-font-family);
 }
 h2 {
   padding-left: 150px;
@@ -33,14 +37,16 @@ a:hover {
   color: var(--pink-color);
 }
 
+#about-paragraph {
+  padding-left: 50px;
+  padding-right: 50px;
+  margin: auto;
+}
+
 #carouselCaptions {
   width: 700px;
   display: block;
   margin: 0 auto;
-}
-#about-paragraph {
-  margin-top: 70px;
-  margin-bottom: 180px;
 }
 
 .custom-shape-divider-bottom-1656160478 {
@@ -196,10 +202,10 @@ footer .email-link {
 }
 footer .social-links a {
   margin: 0 20px;
-  color: var(--peach-color);
+  color: var(--pink-color);
   padding: 15px 19px;
-  background: papayawhip;
-  border-radius: 50%;
+  background: rgb(245, 237, 224);
+  border-radius: 25%;
   font-size: 25px;
 }
 footer .social-links a:hover {
