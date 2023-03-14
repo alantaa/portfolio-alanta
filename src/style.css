@@ -6,8 +6,18 @@
   --pink-color: rgba(45, 0, 27, 0.901);
 }
 
+.no-gutter {
+  margin-right: 0;
+  margin-left: 0;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.index {
+  background-color: black;
+}
 .index-info {
-  margin-left: 50px;
+  color: antiquewhite;
 }
 
 .pexpurp {
@@ -67,47 +77,6 @@ a:hover {
   width: 700px;
   display: block;
   margin: 0 auto;
-}
-
-.custom-shape-divider-bottom-1656160478 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-}
-
-.custom-shape-divider-bottom-1656160478 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 117px;
-}
-
-.custom-shape-divider-bottom-1656160478 .shape-fill {
-  fill: #ffffff;
-}
-
-.custom-shape-divider-bottom-1656163219 {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
-  line-height: 0;
-  transform: rotate(180deg);
-}
-
-.custom-shape-divider-bottom-1656163219 svg {
-  position: relative;
-  display: block;
-  width: calc(100% + 1.3px);
-  height: 119px;
-}
-
-.custom-shape-divider-bottom-1656163219 .shape-fill {
-  fill: #ffffff;
 }
 
 .header-section {
