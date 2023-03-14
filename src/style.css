@@ -6,9 +6,17 @@
   --pink-color: rgba(45, 0, 27, 0.901);
 }
 
+.index-info {
+  margin-left: 50px;
+}
+
 .pexpurp {
   width: 100%;
   height: auto;
+}
+.pexpurpver {
+  width: auto;
+  height: 100%;
 }
 
 header {
@@ -225,27 +233,11 @@ footer .social-links a:hover {
   background: var(--peach-color);
 }
 @media (max-width: 400px) {
-  .custom-shape-divider-bottom-1656160478,
-  .custom-shape-divider-bottom-1656163219 {
-    display: none;
-  }
   header h2 {
     font-size: 40px;
   }
   .header-section {
     max-height: 350px !important;
-  }
-}
-
-@media (max-width: 768px) {
-  .project-image {
-    display: none !important;
-  }
-  .description-none {
-    display: none;
-  }
-  .projectTitle {
-    text-align: left !important;
   }
 }
 
@@ -277,7 +269,7 @@ footer .social-links a:hover {
     left: 0px;
   }
   .projectTitle {
-    padding: 150px 0 60px 30px;
+    padding: 10px 0 60px 30px;
     margin: 0 !important;
   }
 
