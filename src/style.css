@@ -70,6 +70,7 @@ a {
 a:hover {
   color: var(--pink-color);
 }
+
 #contact-intro {
   padding: 40px;
 }
@@ -80,23 +81,11 @@ a:hover {
   margin: auto;
 }
 
-#carouselCaptions {
-  width: 700px;
+.img-fluid {
+  max-width: 100%;
+  height: auto;
   display: block;
   margin: 0 auto;
-}
-
-.header-section {
-  max-height: 600px;
-  background: linear-gradient(to right, var(--pink-color), var(--peach-color));
-}
-.header-about-color {
-  height: 100vh;
-  background: linear-gradient(to right, var(--peach-color), var(--pink-color));
-}
-.header-contact-color {
-  height: 100vh;
-  background: linear-gradient(to top, var(--peach-color), var(--pink-color));
 }
 
 .projectTitle {
@@ -116,31 +105,12 @@ a:hover {
   border-radius: 8px;
   width: 900px;
 }
-.img-fluid {
-  max-width: 100%;
-  height: auto;
-  display: block;
-  margin: 0 auto;
-}
+
 .project-image {
   width: 700px;
   padding: 30px;
 }
 
-.about-pic {
-  max-height: 100%;
-  display: block;
-  margin: 0 auto;
-}
-.project-description {
-  display: block;
-  margin: 0 auto;
-}
-.project-about {
-  left: -150px;
-  display: block;
-  margin: 0 auto;
-}
 .project-description,
 .project-about {
   height: 100%;
@@ -172,10 +142,7 @@ a:hover {
 .contact-info a {
   color: var(--pink-color);
 }
-.logo-nav {
-  max-width: 160px;
-  padding: 2px 0 0 0;
-}
+
 .nav-style {
   padding: 0px;
   margin: 0;
@@ -208,12 +175,19 @@ footer .social-links a:hover {
   color: white;
   background: var(--peach-color);
 }
-@media (max-width: 400px) {
-  header h2 {
-    font-size: 40px;
+
+@media (max-width: 576px) {
+  h3 {
+    font-size: 20px;
   }
-  .header-section {
-    max-height: 350px !important;
+  p {
+    font-size: 12px;
+  }
+  .index {
+    height: 400px;
+  }
+  .pexpurpver {
+    height: 400px;
   }
 }
 
