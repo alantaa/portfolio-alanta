@@ -35,6 +35,9 @@
   width: auto;
   height: 100%;
 }
+.con-padding {
+  padding: 0;
+}
 
 header {
   padding-top: 100px;
@@ -93,6 +96,9 @@ a:hover {
   font-size: 40px;
   padding: 200px 0 100px 0;
 }
+.project-title p {
+  font-size: 18px !important;
+}
 .project-sun-pic {
   background: linear-gradient(to right, var(--pink-color), var(--peach-color));
   padding: 0px 100px 0px 50px;
@@ -108,18 +114,19 @@ a:hover {
 
 .project-image {
   width: 700px;
-  padding: 30px;
+  padding: 8px;
+  margin-bottom: 200px;
 }
 
 .project-description,
 .project-about {
   height: 100%;
   background-color: #ffffff;
-  padding: 10px 20px;
+  padding: 0px 20px;
   border-radius: 5px;
-  box-shadow: 10px 10px 70px rgba(0, 0, 0, 0.2);
   position: relative;
   margin-top: 100px;
+  margin-bottom: 100px;
 }
 .description-right {
   left: -130px;
@@ -178,31 +185,34 @@ footer .social-links a:hover {
 
 @media (max-width: 576px) {
   h3 {
-    font-size: 20px;
+    font-size: 38px;
   }
   p {
     font-size: 12px;
   }
   .index {
-    height: 400px;
+    height: 700px;
   }
   .pexpurpver {
-    height: 400px;
+    height: 700px;
+  }
+  .pexpurp {
+    height: 350px;
+  }
+  .con-padding {
+    padding: 20px;
+  }
+  .about-text {
+    padding-top: 50px;
   }
 }
 
 @media (max-width: 992px) {
-  .description-none {
-    left: 0px;
-    margin-top: 0px;
-  }
   .project-sun-pic {
     display: block;
     margin: 0 auto;
   }
-  header {
-    padding-top: 100px;
-  }
+
   h2 {
     padding: 0px 60px;
     font-size: 70px;
@@ -214,19 +224,12 @@ footer .social-links a:hover {
   .description-right {
     left: 0px;
   }
-  .project-about {
-    max-width: 90%;
-    left: 0px;
-  }
+
   .projectTitle {
-    padding: 10px 0 60px 30px;
+    padding: 150px 0 60px 30px;
     margin: 0 !important;
   }
-
   .project-description {
-    margin: 0px;
-  }
-  .header-section {
-    max-height: 480px;
+    margin-top: 0px;
   }
 }
