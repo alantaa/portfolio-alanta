@@ -5,7 +5,14 @@
   --peach-color: rgba(72, 2, 91, 0.423);
   --pink-color: rgba(45, 0, 27, 0.901);
 }
-
+.navbar-light .navbar-toggler {
+  border: 0;
+  color: #ffffff;
+  box-shadow: #ffffff;
+}
+.navbar-toggler:focus {
+  box-shadow: #ffffff;
+}
 .no-gutter {
   margin-right: 0;
   margin-left: 0;
