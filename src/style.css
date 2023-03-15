@@ -5,6 +5,7 @@
   --peach-color: rgba(72, 2, 91, 0.423);
   --pink-color: rgba(45, 0, 27, 0.901);
 }
+
 .navbar-light .navbar-toggler {
   border: 0;
   color: #ffffff;
@@ -13,6 +14,7 @@
 .navbar-toggler:focus {
   box-shadow: #ffffff;
 }
+
 .no-gutter {
   margin-right: 0;
   margin-left: 0;
@@ -126,7 +128,7 @@ a:hover {
   border-radius: 5px;
   position: relative;
   margin-top: 100px;
-  margin-bottom: 100px;
+  margin-bottom: 25px;
 }
 .description-right {
   left: -130px;
@@ -232,4 +234,15 @@ footer .social-links a:hover {
   .project-description {
     margin-top: 0px;
   }
+}
+
+.reveal {
+  position: relative;
+  transform: translateY(50px);
+  opacity: 0;
+  transition: 1.9s all ease;
+}
+.reveal.active {
+  transform: translateY(0);
+  opacity: 1;
 }
